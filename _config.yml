@@ -1,8 +1,17 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: Scene Size Analyzer
+description: Professional tools for optimizing Unity scene performance and build size.
 
-url: https://just-the-docs.github.io
+# Using remote_theme for GitHub Pages compatibility
+remote_theme: just-the-docs/just-the-docs
+
+# Ensure jekyll-remote-theme plugin is active
+plugins:
+  - jekyll-remote-theme
+
+url: https://decnet-games.github.io
+baseurl: /SceneSizeAnalyzer-Doc
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub Repository: https://github.com/DecNet-Games/SceneSizeAnalyzer-Doc
+
+color_scheme: dark
